@@ -10,11 +10,11 @@ cask "power-term" do
   desc "Modern terminal built with Tauri, React, and xterm.js"
   homepage "https://github.com/Financial-Support/power-term"
 
-  app "Power Term.app", target: "power-term.app"
+  app "Power Term.app"
 
   postflight do
     system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/power-term.app"]
+                   args: ["-cr", "#{appdir}/Power Term.app"]
   end
 
   zap trash: [
