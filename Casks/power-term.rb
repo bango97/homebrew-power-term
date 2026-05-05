@@ -1,9 +1,9 @@
 cask "power-term" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.1.9"
-  sha256 arm:   "347267aa87fa42daa944293fdef9b5b7378d2755ce0ac37a7e13ff048993214b",
-         intel: "d57c41f5072617da02bc616be067b7e3f837be2b4307fd68f86ec85fa63b8d16"
+  version "0.1.10"
+  sha256 arm:   "9b8df99fbeb25574c19645f4c4f67445ee584b7914bef02be14dd0024b4c3be6",
+         intel: "45c4676eb58bddaf260ab65b37d77265764b95ea1e395c31dbbdfd5fa45f40fb"
 
   url "https://github.com/bango97/homebrew-power-term/releases/download/v#{version}/PowerTerm-#{version}-#{arch}.dmg"
   name "Power Term"
