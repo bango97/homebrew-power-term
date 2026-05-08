@@ -1,11 +1,11 @@
 cask "power-term" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.1.23"
-  sha256 arm:   "c9e06437a12091556d7f4eb53e92cc47c1474a4e466ff15996ccead40608d1ab",
-         intel: "1c9ee34c84779cfa141ce7b8c1eaf961229018138af31a5aaed375ec432e53f5"
+  version "0.1.24"
+  sha256 arm:   "3261cb90426792f7d62d993725a1139e64518749bf66aeab55a7e582c527f2df",
+         intel: "e1b9571e22a258e788d88fdba4a5a6cf1e06ecaef1afcbc0bd85bbee051b632a"
 
-  url "https://github.com/bango97/homebrew-power-term/releases/download/v#{version}/PowerTerm-#{version}-#{arch}.dmg"
+  url "https://github.com/bango97/homebrew-power-term/releases/download/v#{version}/Power.Term_#{version}_#{arch}.dmg"
   name "Power Term"
   desc "Modern terminal built with Tauri, React, and xterm.js"
   homepage "https://github.com/Financial-Support/power-term"
