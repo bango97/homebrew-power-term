@@ -1,8 +1,8 @@
 cask "power-term" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.1.32"
-  sha256 arm:   "f1c27889ed0f6b13b2c44677261ee28dab9b8c6587d34cd4f3e647f9a875f3d2",
+  version "0.1.33"
+  sha256 arm:   "445da1aaf87998001570b73a7ef3f2260e9fa2076d2bf4b080f34219533da142",
          intel: "e1b9571e22a258e788d88fdba4a5a6cf1e06ecaef1afcbc0bd85bbee051b632a"
 
   url "https://github.com/bango97/homebrew-power-term/releases/download/v#{version}/Power.Term_#{version}_#{arch}.dmg"
